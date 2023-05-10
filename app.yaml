@@ -1,0 +1,8 @@
+runtime: phyton27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  static_files: index.htm
+  upload: index.html
